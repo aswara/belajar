@@ -1,0 +1,8 @@
+.menu {
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
