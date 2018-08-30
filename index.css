@@ -105,7 +105,8 @@ img {
     padding-left: 10px;
 }
 
-.bungkus {
+.col-md-4 {
     background-color: #F8F9FA;
-    padding: 15px
+    padding: 25px;
+    border: 1px solid white;
 }
