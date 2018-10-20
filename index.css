@@ -12,7 +12,7 @@ button{
 }
 
 .header {
-    background-color: #7542C1;
+    background-color: #563d7c;
     color: #A2A1DF;
     font-family: sans-serif;
     font-size: 17px;
@@ -21,6 +21,10 @@ button{
     width: 100%;
     position: fixed;
     top: 0;
+}
+
+.wt {
+    color: white;
 }
 
 .icon {
@@ -54,7 +58,7 @@ nav a:hover {
     border: 1px solid #D4E484;
     border-radius: 5px;
     font-size: 20px;
-    padding: 3px 10px 3px 10px;
+    padding: 8px 10px 6px 10px;
     margin-top: 13px;
     margin-right: 10px;
     color: white;
@@ -63,6 +67,7 @@ nav a:hover {
 
 .download:hover {
     background-color: #D4E484;
+    cursor:pointer;
     color:black;
 }
 
@@ -108,6 +113,7 @@ nav a:hover {
 
 .get:hover {
     background-color: #7542C1;
+    cursor:pointer;
     color: white;
     
 }
@@ -123,6 +129,7 @@ nav a:hover {
 
 .down:hover {
     background-color: #75757D;
+    cursor:pointer;
     color: white;
 }
 
@@ -162,6 +169,7 @@ nav a:hover {
 
 .read:hover {
     background-color: #316DFF;
+    cursor:pointer;
     color: white;
 }
 
