@@ -4,90 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap</title>
+    
+    <title>Bootstrap · The most popular HTML, CSS, and JS library in the world.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
-    <nav class="header">
-        <a class="icon" href="">B</a>
-        <div class="teks">
-            <a href="">Home</a>
-            <a href="">Documentation</a>
-            <a href="">Examples</a>
-            <a href="">Examples</a>
-            <a href="">Themes</a>
-            <a href="">Expo</a>
-            <a href="">Blog</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><button class="icon">B</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a class="" href="#">Examples</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="#">Themes</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="#">Expo</a>
+              </li>
+              
+            </li>
+            <li class="nav-item">
+              <a class="" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown mr-sm-2">
+                        <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          v4.1
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Latest</a>
+                          <a class="dropdown-item" href="#">v4.0.0</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">v4 Alpha 6</a>
+                        </div>
+                </li>
+              </ul>
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Download</button>
+          </form>
         </div>
-        <a class="download" href="">Download</a>
+      </nav>
 
-        <div class="dropdown">
-                <a id="myBtn" class="dropbtn" href="#">v4.1</a>
-                  <div id="myDropdown" class="dropdown-content">
-                    <a href="#home">Latest (4.1.x)</a>
-                    <a href="#about">v4.0.0</a>
-                    <a href="#contact">v4 Alpha</a>
-                  </div>
-        </div>
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-6">
+                <h1 class="bo">Bootstrap</h1>
+                <p class="lead"Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+                <p class="lead">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+          
+                  <button type="button" class="get ">Get started</button>
+                  <button type="button" class="down ">Download</button>
                 
+                <p class="text-muted mb-0" style="font-size:17px">Currently v4.1.3</p>
+              </div>
+              <div class="col-md-6">
+                <img class="img" src="logo.png" alt="">
+              </div>
+          </div>
+      </div>
 
-    </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="bungkus">
+                <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round"><title>Import icon</title><path d="M28 22v8H4v-8M16 4v20m-8-8l8 8 8-8"/></svg>
 
-    <div class="menu">
-        <div class="menusatu">
-            <span class="judul">Bootstrap</span>
-            <p class="isi">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-            <p class="isi">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-            <a href=""><button class="get">
-                Get started
-            </button></a>
-            <a href=""><button class="down">Download</button></a>
-            <p class="cur">Currently v4.1.3</p>
+                <h3>Installation</h3>
+                <p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install </span>bootstrap</code></pre></figure>
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nb">install </span>bootstrap <span class="nt">-v</span> 4.1.3</code></pre></figure>
+                <hr class="half-rule">
+                <a class="btn btn-outline-primary" href="">Read installation docs</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bungkus"> 
+                <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round"><title>Download icon</title><path d="M9 22c-9 1-8-10 0-9C6 2 23 2 22 10c10-3 10 13 1 12m-12 4l5 4 5-4m-5-10v14"/></svg>
+                <h3>BootstrapCDN</h3>
+                <p>
+                When you only need to include Bootstrap's compiled CSS or JS, you can use BootstrapCDN.
+                </p>
+
+                <h5>CSS only</h5>
+                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span></code></pre></figure>
+
+                <h5>JS, Popper.js, and jQuery</h5>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.3.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre>
+</figure>
+                <hr class="half-rule">
+                <a class="btn btn-outline-primary" href="">Explore the docs</a>
+             </div>
+            </div>
+             <div class="col-md-4">
+               <div class="bungkus">
+                <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round"><title>Lightning icon</title><path d="M18 13l8-11L8 13l6 6-8 11 18-11z"/></svg>
+                <h3>Official Themes</h3>
+                <p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
+                <img src="1.png" alt="">
+                <hr class="half-rule">
+                <a href="https://themes.getbootstrap.com" class="btn btn-outline-primary">Browse themes</a>
+            </div>
+          </div>
         </div>
-        <div class="menudua">
-            <img src="bootstrap-stack.png" alt="">
+      </div>
+
+      <footer class="bd-footer text-muted copy">
+        <div class="container-fluid">
+          <p>
+            <a id="cp" href="https://github.com/twbs/bootstrap">GitHub</a>
+            <a id="cp" href="https://twitter.com/getbootstrap">Twitter</a>
+            <a id="cp" href="/docs/4.1/examples/">Examples</a>
+            <a id="cp" href="/docs/4.1/about/overview/">About</a>
+          </p>
+          <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank" rel="noopener">@mdo</a> and <a href="https://twitter.com/fat" target="_blank" rel="noopener">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</br>
+          Currently v4.1.3. Code licensed <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
         </div>
-    </div>
+      </footer>
 
-    <div class="colom">
-        <div class="col">
-            <h1>Installation</h1>
-            <p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>
-            <p>$ npm install bootstrap</p>
-            <p>$ gem install bootstrap -v 4.1.3</p>
-
-            <a href=""><button class="read">Read Installation docs</button></a> 
-        </div>
-        <div class="col">
-            <h1>BootstrapCDN</h1>
-            <p>When you only need to include Bootstrap's compiled CSS or JS, you can use BootstrapCDN</p>
-            <h3>CSS only</h3>
-
-            <h3>JS, Popper.js, and jQuery</h3>
-
-            <a href=""><button class="read">Explores the docs</button></a> 
-        </div>
-        <div class="col">
-            <h1>Official Themes</h1>
-            <p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
-            <img src="1.png" alt="">
-
-            <a href=""><button class="read">Browse themes</button></a>
-        </div>
-    </div>
-
-    <div class="footer">
-        <a href="">GitHub</a>
-        <a href="">Twitter</a>
-        <a href="">Examples</a>
-        <a href="">About</a>
-        <p>Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the help of our contributors.</p>
-        <p>Currently v4.1.3. Code licensed MIT, docs CC BY 3.0.</p>
-    </div>
-
-    <script src="script.js">
-        
-    </script>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
